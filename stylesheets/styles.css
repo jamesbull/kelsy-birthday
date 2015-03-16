@@ -52,11 +52,12 @@ a small {
 }
 
 header {
+  position: relative;
   margin-bottom: 50px;
 }
 
 .background-image {
-  height: 200px;
+  height: 300px;
   background: grey;
 }
 
@@ -67,8 +68,8 @@ header {
   background: red;
   position: absolute;
   bottom: 0;
-  left: 0;
-  transform: translate3d(-50%, 50%, 0);
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 50%, 0);
 }
 
 blockquote {
