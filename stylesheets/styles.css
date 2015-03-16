@@ -50,6 +50,22 @@ a small {
   margin:0 auto;
 }
 
+.background-image {
+  height: 200px;
+  background: grey;
+}
+
+.profile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background: red;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate3d(-50%, 50%, 0);
+}
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
