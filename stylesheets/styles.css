@@ -58,7 +58,8 @@ header {
 
 .background-image {
   height: 300px;
-  background: grey;
+  background: url(http://drop.jimbon.es/1e3KW+) center top;
+  background-size: cover;
 }
 
 .profile-image {
@@ -135,30 +136,8 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
-}
-
 @media print, screen and (max-width: 960px) {
-  
-  div.wrapper {
-    width:auto;
-    margin:0;
-  }
-  
-  header, section, footer {
-    float:none;
-    position:static;
-    width:auto;
-  }
-  
-  section {
-    padding:20px 0;
-    margin:0 0 20px;
-  }
-  
-  header a small {
-    display:inline;
-  }
+
 }
 
 @media print, screen and (max-width: 720px) {
@@ -172,9 +151,6 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
 }
 
 @media print {
