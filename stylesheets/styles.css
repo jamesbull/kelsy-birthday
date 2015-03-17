@@ -19,6 +19,7 @@ p, ul, ol, table, pre, dl {
 }
 
 ul, ol {
+  margin-left: 0;
   list-style: none;
 }
 
